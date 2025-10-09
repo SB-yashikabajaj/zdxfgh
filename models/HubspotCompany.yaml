@@ -1,0 +1,100 @@
+title: HubspotCompany
+x-stoplight:
+  id: a1scvm1h9qc0v
+type: object
+description: Fields to be written from Flex to the Hubspot Company Entity
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: jola5icbr1j1q
+  flexCompanyId:
+    type: string
+    x-stoplight:
+      id: 4ur9fp9r6wrug
+    format: uuid
+  availableCredit:
+    type: number
+    x-stoplight:
+      id: 814hpv9rv1umb
+  creditBalance:
+    type: number
+    x-stoplight:
+      id: m1rq6a1fd10wq
+  creditLimit:
+    type: number
+    x-stoplight:
+      id: 85a29vrcobi2a
+  lithicId:
+    type: string
+    x-stoplight:
+      id: k0bn8sq9qkq7v
+    format: uuid
+  unitId:
+    type: string
+    x-stoplight:
+      id: 3irqtkz7vqshq
+    format: uuid
+  bankDeposits:
+    type: number
+    x-stoplight:
+      id: wv1ij2ekt8amu
+  creditCashbackRebateBalance:
+    type: number
+    x-stoplight:
+      id: vvv3ahopz723d
+  creditCashbackNearTermDays:
+    type: number
+    x-stoplight:
+      id: hirfsa07ydaer
+  creditCashbackFarTermDays:
+    type: number
+    x-stoplight:
+      id: flkaniizl8mmm
+  creditCashbackNearTermPct:
+    type: number
+    x-stoplight:
+      id: cb2al6qsazhw1
+  creditCashbackFarTermPct:
+    type: number
+    x-stoplight:
+      id: xf8kc65tk6wdp
+  customerStartDate:
+    type: string
+    x-stoplight:
+      id: se0vy0hjnyqny
+    format: date
+  creditLineApproved:
+    type: string
+    x-stoplight:
+      id: oxzc7c86pld1r
+    format: date-time
+  monthlySpend:
+    type: number
+    x-stoplight:
+      id: a56o4ko4sb5d9
+  firstTransactionDate:
+    type: string
+    x-stoplight:
+      id: amkcsfemo5jgg
+    format: date-time
+  creditUtilization:
+    type: number
+    x-stoplight:
+      id: sdntjemld4vh0
+  annualRevenue:
+    type: string
+    x-stoplight:
+      id: ph3zovm7ijodh
+  alfredUrl:
+    type: string
+    x-stoplight:
+      id: 38f2ulcubm0ex
+  foundedYear:
+    type: string
+    x-stoplight:
+      id: mzohtvmjsoj8z
+  dbaName:
+    type: string
+    x-stoplight:
+      id: 3e1780ra391d5

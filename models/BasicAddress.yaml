@@ -1,0 +1,43 @@
+title: BasicAddress
+x-stoplight:
+  id: s89m69btum0g4
+type: object
+description: Represents a physical mailing address
+properties:
+  street:
+    type: array
+    description: 'The full street address component, which may include house number, street name, P.O. box, and multi-line extended street address information'
+    items:
+      type: string
+      x-stoplight:
+        id: so6tmgb3i0jh4
+    x-stoplight:
+      id: 9q4hf2g42tz4y
+  locality:
+    type: string
+    description: The city or locality
+    x-stoplight:
+      id: fdepgi9yz099t
+  region:
+    type: string
+    description: The state or region
+    x-stoplight:
+      id: 7c5g6zbn658pl
+  postalCode:
+    type: string
+    description: The zip code or postal code
+    x-stoplight:
+      id: xz1s8r0c3j6x8
+  country:
+    type: string
+    description: 'The country code. When specified, the value MUST be in [ISO 3166-1 "alpha-2"](https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2) format; e.g., the United States and Sweden are "US" and "SE", respectively'
+    minLength: 2
+    maxLength: 2
+    x-stoplight:
+      id: oeu9nhz7o1sob
+required:
+  - street
+  - locality
+  - region
+  - postalCode
+  - country

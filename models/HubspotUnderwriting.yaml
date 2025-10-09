@@ -1,0 +1,109 @@
+title: HubspotUnderwriting
+x-stoplight:
+  id: awnokz0d74xax
+type: object
+description: Fields to be written from Flex to the Hubspot Underwriting Entity
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: hki6fpchhz5rw
+  bankingApplicationStatus:
+    type: string
+    x-stoplight:
+      id: p6sf0for8pkvx
+    enum:
+      - unused
+      - incomplete
+      - pending
+      - approved
+      - denied
+  creditApplicationStatus:
+    type: string
+    x-stoplight:
+      id: sv4mhfwpxy1bz
+    enum:
+      - unused
+      - incomplete
+      - pending
+      - approved
+      - denied
+  userType:
+    type: string
+    x-stoplight:
+      id: pu8xipjzqbkod
+    enum:
+      - employee
+      - owner
+      - accountant
+      - auditor
+      - admin
+  flexUserId:
+    type: string
+    x-stoplight:
+      id: qi4rsexjb5ufe
+    format: uuid
+  flexCompanyId:
+    type: string
+    x-stoplight:
+      id: fgbsc163swg5z
+    format: uuid
+  bankingApplicant:
+    type: string
+    x-stoplight:
+      id: i62165xacey4z
+    enum:
+      - 'yes'
+      - 'no'
+  creditApplicant:
+    type: string
+    x-stoplight:
+      id: zkbe8oasgb5xi
+    enum:
+      - 'yes'
+      - 'no'
+  ficoBand:
+    type: string
+    x-stoplight:
+      id: f3k2zbk7iuc43
+    enum:
+      - NOT_PROCESSED_YET
+      - super_prime
+      - prime
+      - near_prime
+      - subprime
+  ficoStatus:
+    type: string
+    x-stoplight:
+      id: i9hdzm79839jb
+    enum:
+      - frozen
+      - unfrozen
+  kycPassed:
+    type: boolean
+    x-stoplight:
+      id: 0rxe4z2t0p4q9
+  kycPassedDate:
+    type: string
+    x-stoplight:
+      id: ypmcih7sbozbo
+    format: date-time
+  creditLimit:
+    type: number
+    x-stoplight:
+      id: pyunb12zxs3s1
+  lithicId:
+    type: string
+    x-stoplight:
+      id: uyzuedkwv2ftc
+    format: uuid
+  unitId:
+    type: string
+    x-stoplight:
+      id: u47y5i1eh6qvc
+    format: uuid
+  creditLineApproved:
+    type: string
+    x-stoplight:
+      id: fnmu9jdskqbal
+    format: date-time

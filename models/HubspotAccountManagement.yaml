@@ -1,0 +1,80 @@
+title: HubspotAccountManagement
+x-stoplight:
+  id: 80gkxzdj6a112
+type: object
+description: Fields to be written from Flex to the Hubspot Account Management Entity
+properties:
+  id:
+    type: string
+    x-stoplight:
+      id: 7yn788femdfko
+  flexCompanyId:
+    type: string
+    x-stoplight:
+      id: b4c5w8vbgyj9j
+    format: uuid
+  availableCredit:
+    type: number
+    x-stoplight:
+      id: usq5xkm4cnbf3
+  creditLimit:
+    type: number
+    x-stoplight:
+      id: v28jq973k3u76
+  lithicId:
+    type: string
+    x-stoplight:
+      id: polzofypdp27t
+    format: uuid
+  unitId:
+    type: string
+    x-stoplight:
+      id: w896s8ggnm4gp
+    format: uuid
+  bankDeposits:
+    type: number
+    x-stoplight:
+      id: ukh2ty4rc5rh0
+  creditCashbackRebateBalance:
+    type: number
+    x-stoplight:
+      id: jq2uff2pq6hh2
+  creditCashbackNearTermDays:
+    type: number
+    x-stoplight:
+      id: de35wqfyp58mm
+  creditCashbackFarTermDays:
+    type: number
+    x-stoplight:
+      id: 41sh14ncumsjv
+  creditCashbackNearTermPct:
+    type: number
+    x-stoplight:
+      id: xmo9t2mgqge0v
+  creditCashbackFarTermPct:
+    type: number
+    x-stoplight:
+      id: gvkhaxssua7yk
+  customerStartDate:
+    type: string
+    x-stoplight:
+      id: tiuy84q03b4od
+    format: date
+  creditLineApproved:
+    type: string
+    x-stoplight:
+      id: ilkpeo286qan8
+    format: date-time
+  monthlySpend:
+    type: number
+    x-stoplight:
+      id: 4rupisj8tdpkm
+  firstTransactionDate:
+    type: string
+    x-stoplight:
+      id: 2m9atim7c3scp
+    format: date-time
+  creditUtilization:
+    type: number
+    x-stoplight:
+      id: uu83wt6qkm35h

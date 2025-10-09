@@ -1,0 +1,29 @@
+description: Properties that are allowed to be edited on existing phones
+x-stoplight:
+  id: tfczwb6bqk2sq
+type: object
+properties:
+  type:
+    type: string
+    description: A label indicating the phone's type
+    enum:
+      - work
+      - home
+      - mobile
+      - fax
+      - pager
+      - other
+    x-stoplight:
+      id: tql8dfoa0egqn
+  isPrimary:
+    type: boolean
+    x-stoplight:
+      id: axybipo7757hf
+  active:
+    type: boolean
+    x-stoplight:
+      id: vcvrogrzyrzbs
+  value:
+    type: string
+    x-stoplight:
+      id: wf0tzfmrh35px
