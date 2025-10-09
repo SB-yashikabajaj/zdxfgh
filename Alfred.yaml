@@ -11,7 +11,7 @@ info:
     email: support@flex.one
     name: Support
     url: 'https://www.flex.one'
-  description: Endpoints for Alfred servicing application
+  description: Endpoints for Alfred servicing application cffgfg
   summary: Alfred
 servers:
   - url: 'http://localhost:3000'
