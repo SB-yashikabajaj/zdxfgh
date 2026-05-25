@@ -67,11 +67,11 @@ paths:
                   data:
                     $ref: ./models/HubspotCompany.yaml
                     x-stoplight:
-                      id: cb5kdwg5miv0x
+                      id: cb5kdwg5miv0xr
                   metadata:
                     $ref: ./models/PaginationMetadata.yaml
                     x-stoplight:
-                      id: nqntq15p88kl1
+                      id: nqntq15p88kl1r
       description: ''
       x-stoplight:
         id: bup9kegqzls1y
