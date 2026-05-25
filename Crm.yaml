@@ -94,11 +94,11 @@ paths:
                   data:
                     $ref: ./models/HubspotUnderwriting.yaml
                     x-stoplight:
-                      id: cb5kdwg5miv0x
+                      id: cb5kdwg5miv0xf
                   metadata:
                     $ref: ./models/PaginationMetadata.yaml
                     x-stoplight:
-                      id: nqntq15p88kl1
+                      id: nqntq15p88kl1f
       description: ''
       x-stoplight:
         id: mhb1t0orhveo3
@@ -121,11 +121,11 @@ paths:
                   data:
                     $ref: ./models/HubspotDeal.yaml
                     x-stoplight:
-                      id: cb5kdwg5miv0x
+                      id: cb5kdwg5miv0xx
                   metadata:
                     $ref: ./models/PaginationMetadata.yaml
                     x-stoplight:
-                      id: nqntq15p88kl1
+                      id: nqntq15p88kl1x
       description: ''
       x-stoplight:
         id: yecvons8i4b9g
@@ -148,11 +148,11 @@ paths:
                   data:
                     $ref: ./models/HubspotOnboarding.yaml
                     x-stoplight:
-                      id: cb5kdwg5miv0x
+                      id: cb5kdwg5miv0xb
                   metadata:
                     $ref: ./models/PaginationMetadata.yaml
                     x-stoplight:
-                      id: nqntq15p88kl1
+                      id: nqntq15p88kl1b
       description: ''
       x-stoplight:
         id: of50u0m826fw3
@@ -175,11 +175,11 @@ paths:
                   data:
                     $ref: ./models/HubspotAccountManagement.yaml
                     x-stoplight:
-                      id: cb5kdwg5miv0x
+                      id: cb5kdwg5miv0xh
                   metadata:
                     $ref: ./models/PaginationMetadata.yaml
                     x-stoplight:
-                      id: nqntq15p88kl1
+                      id: nqntq15p88kl1h
       description: ''
       x-stoplight:
         id: ru20hsm9sp7xp
