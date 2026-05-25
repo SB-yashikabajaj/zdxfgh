@@ -101,7 +101,7 @@ paths:
                       id: nqntq15p88kl1f
       description: ''
       x-stoplight:
-        id: mhb1t0orhveo3
+        id: bup9kegqzls1y
   '/crm/hubspot/deals/businesses/{businessId}/sync':
     parameters:
       - $ref: '#/components/parameters/businessId'
